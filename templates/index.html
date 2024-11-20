@@ -1,6 +1,12 @@
-{% extends 'base.html' %}
+{% extends "layout/base.html" %}
+{% load static %}
 
 {% block content %}
+<div class="header">
+    {% include 'layout/header.html' %}
+</div>
+
+
     <h2>Welcome to my portfolio website!</h2>
     <p>I'm Shray Sharma, a software engineer with a passion for creating innovative solutions.</p>
 {% endblock %}
